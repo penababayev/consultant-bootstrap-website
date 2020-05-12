@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Carter One', cursive;
+    font-weight: 800 !important;
+    
+}
+
+.img-layer{
+    position: absolute;
+    width: 60%;
+    height: 110%;
+    top: 0%;
+    left: 0%;
+    background-image: url(../img/Png_Panel-Image.png);
+    background-size: cover;
+    
+}
+
+.img-layer .home-content {
+    margin-left: 20%;
+    margin-top: 30%;
+    width: 60%;
+}
+.site-header {
+    position: relative;
+}
+.navbar {
+    position: absolute;
+    top: 0%;
+    z-index: 2;
+}
+.nav-link {
+    color: black !important;
+}
+
+.content-2 {
+    background-color: #f9dc5c;
+}
+
+.content-3 {
+    background-color: #0b132b;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.content-3 .sec-img {
+    margin-left: 30%;
+}
+
+.content-4 {
+    margin: 5%;
+}
+
+.content-5{
+    background-color: #131212;
+}
+
+.footer {
+    margin-top: 5%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #bfbdbd;
+    padding: 2%;
+}
